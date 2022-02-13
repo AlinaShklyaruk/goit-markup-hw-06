@@ -634,6 +634,15 @@ img {
   margin-left: 10px;
 }
 
+.subscribe-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-text-logo);
+}
+
 /*------PORTFOLIO-------*/
 
 .portfolio-filters {
