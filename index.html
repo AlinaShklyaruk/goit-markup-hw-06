@@ -73,6 +73,37 @@
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
             </button>
+            <form action="" class="callback">
+              <p class="callback-title">
+                Оставьте свои данные, мы вам перезвоним
+              </p>
+              <div class="form-field">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="form-field">
+                <label for="phone">Телефон</label>
+                <input type="text" name="phone" id="phone" />
+              </div>
+              <div class="form-field">
+                <label for="email">Почта</label>
+                <input type="email" name="email" id="email" />
+              </div>
+
+              <label for="comment">Комментарий</label>
+              <input
+                type="text"
+                name="comment"
+                id="comment"
+                placeholder="Введите текст"
+              />
+              <input type="checkbox" name="policy" id="policy" />
+              <label for="policy"
+                >Соглашаюсь с рассылкой и принимаю
+                <a href="/" class="policy-link">Условия договора</a>
+              </label>
+              <button type="submit" class="send-btn">Отправить</button>
+            </form>
           </div>
         </div>
       </section>
@@ -515,8 +546,23 @@
         </div>
 
         <div class="subscribe">
-          <form action="">
+          <form action="" class="subscribe-form">
             <p class="subscribe-text">Подпишитесь на рассылку</p>
+            <div class="subscribe-form-field">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                class="subscribe-form-input"
+              />
+              <button type="submit" class="subscribe-btn button">
+                Подписаться
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
