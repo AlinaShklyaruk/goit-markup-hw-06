@@ -401,7 +401,7 @@ img {
 .comment-input {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .comment-input label {
@@ -433,7 +433,7 @@ img {
 }
 
 .callback {
-  margin: 40px;
+  padding: 40px;
 }
 
 .send-btn {
@@ -487,6 +487,10 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.checkbox:focus + .checkbox-icon {
+  border-color: var(--accent-color);
+}
+
 .checkbox:checked + .checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
@@ -506,7 +510,7 @@ img {
 }
 
 .policy-link {
-  padding-left: 4px;
+  margin-left: 4px;
   color: var(--accent-color);
 }
 
